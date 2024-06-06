@@ -1,0 +1,70 @@
+*{
+    color: #ffffff;
+}
+.nav{
+    background-color: rgb(71, 68, 68);
+}
+.nav a {
+    color: #ffffff;
+}
+.nav a:hover{
+    color: rgb(255, 220, 20);
+}
+.home{
+    background-color: black;
+}
+.Greeting{
+    color: #ffffff;
+}
+.sub-greeting{
+    color: #ffffff;
+}
+.rounded-circle{
+    max-width: 350px;
+}
+.aboutme{
+    background-color: rgb(11, 11, 51);
+    color: #ffffff;
+}
+.aboutme .heading{
+    text-align:  center;
+}
+.skills{
+    background-color: black;
+}
+.skills .heading{
+    text-align: center;
+}
+.skills img{
+    min-width: 5vh;
+}
+.skills .left{
+    margin-left: 10px;
+}
+.row .col-lg-2:hover{
+    opacity: 50%;
+}
+.home .col-lg-1:hover{
+    opacity: 50%;
+}
+.certification{
+    background-color: rgb(11, 11, 51);
+}
+.certification .heading{
+    text-align: center;
+}
+.certification .col-lg-2:hover .certicate-name{
+    opacity: 50%;
+}
+@media (max-width: 768px) {
+    .home .inner {
+        flex-direction: column;
+    }
+    .home .inner .text {
+        order: 1;
+    }
+    .home .inner img {
+        order: 2;
+        margin-top: 20px;
+    }
+}
