@@ -56,6 +56,21 @@
 .certification .col-lg-2:hover .certicate-name{
     opacity: 50%;
 }
+.projects{
+    background-color: black;
+}
+.projects .heading{
+    text-align: center;
+}
+.card{
+    width: 20vw;
+}
+.card-img-top{
+    width: 100%;
+}
+.card-text{
+    color: black;
+}
 @media (max-width: 768px) {
     .home .inner {
         flex-direction: column;
